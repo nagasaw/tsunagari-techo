@@ -1,0 +1,30 @@
+採用タイトル
+つながり手帖｜noteのフォロー整理・フォローバック確認ツール
+
+meta description
+noteのフォロー・フォロワーを見やすく整理。取得できた情報からフォローバックや片思いを確認し、残す人・保留・メモで一人ずつ見直せる無料のChrome拡張です。解除はnoteで手動操作。非公式β版で、全員を取得できない場合があります。
+
+選定理由
+ブランド表記は既存UIの「つながり手帖」に統一。
+主な検索意図を「note フォロー整理」「note フォローバック 確認」に設定。
+「フォロワー管理」「片思い」「フォロバ」は本文の自然な説明で補い、titleに類義語を詰め込まない。
+公開検索結果の用語と実機能を照合した編集判断。検索ボリュームや順位難易度を定量測定したものではなく、順位の保証もない。
+「全員」「完全」「一括解除」「公式」は実機能と異なるため使用しない。
+無料・Chrome拡張・手動操作・取得範囲の制限をdescriptionで説明。
+管理画面と公開紹介ページは分離。検索対象はwebsite/index.html。
+拡張管理画面にもtitle/descriptionを設定したがnoindex。Chrome内部URL自体は通常の公開検索対象ではない。
+紹介ページはJavaScriptなしで説明・機能・FAQ・導入手順が読める初期HTML。
+OGPタイトル・説明・日本語ロケールを設定。canonical/og:url/画像の絶対URLは公開URL確定後に付属スクリプトで設定。
+公開先の既存サイトマップへの追加とSearch Console確認はアップ担当が公開後に実施。
+
+参考（2026年10月1日確認）
+Google：具体的で簡潔なtitle、キーワードの反復を避ける。検索結果のタイトルはGoogleが自動決定。
+https://developers.google.com/search/docs/appearance/title-link?hl=ja
+Google：descriptionはスニペットに使われる場合があり、常にそのまま表示されるものではない。
+https://developers.google.com/search/docs/appearance/snippet?hl=ja
+note公式：見出し画像の推奨サイズ（1280×670）と表示範囲。
+https://www.help-note.com/hc/ja/articles/360000231642
+
+ヘッダー画像
+推奨比率に近い横長の生成画像。納品は生成原寸1733×907 PNG。
+note投稿画面で見出し画像として設定し、切り抜き位置を確認してください。

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "つながり手帖 — noteフォロー整理",
+  "version": "0.2.0",
+  "description": "noteのフォロー整理・フォローバック確認を助ける無料の非公式Chrome拡張。残す人・保留・メモで管理し、解除はnoteで手動操作。取得範囲に制限があるβ版です。",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_title": "つながり手帖を開く"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
